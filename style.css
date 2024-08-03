@@ -68,7 +68,7 @@ body {
 .enlacestope :link {
 
     text-decoration: none;
-    color: gold;
+    color: rgb(255, 255, 255);
     background-color: rgb(67, 201, 0);
     padding: 5px;
     padding-bottom: 10px;
@@ -295,7 +295,7 @@ footer{
 .fila :link {
 
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(74, 179, 0);
 }
 
 .fila :visited {
