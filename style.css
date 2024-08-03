@@ -337,10 +337,7 @@ footer{
   
 
    }
-   .tope {
 
-    
-   }
 
    .enlacestope  {
 
@@ -434,10 +431,7 @@ footer{
   
 
    }
-   .tope {
-
-    
-   }
+ 
 
    .enlacestope  {
 
@@ -610,3 +604,86 @@ footer{
     }
 
 
+    @media (max-width: 600px) { /* al llegar a 600px*/
+
+        .titulotope{
+    
+            font-size: 15px;
+            padding-top: 25px;
+        }
+    
+        .enlacestope  {
+
+            font-size: 15px;
+        
+           }
+
+        /* Ajuste de imagen  y texto inicial*/
+
+        .Tituimg {
+
+            height: 100px;
+            padding-top: 15px;
+    
+        }
+    
+        .Tit {
+    
+            font-size: 30px;
+        }
+    
+        .subtit{
+    
+            font-size: 10px;
+            margin-top: 10px;
+    
+        }
+    /* Ajustar Titulos y descripciones*/
+
+    .textostit {
+
+        margin-left: 100px;
+        font-size: 5px;
+    }
+
+    .textostitiz {
+
+        margin-left: 100px;
+        font-size: 5px;
+    }
+
+       /* Cajas de descripciones*/
+
+       .descrip {
+
+        margin-left: 50px;
+    }
+
+    .textdesc {
+
+        font-size: 40%;
+        padding-top: 1px;
+    }
+
+    .fotdesc {
+
+        height: 50px;
+    }
+
+    }
+
+    @media (max-width: 400px) { /* al llegar a 400px*/
+
+        .titulotope{
+    
+            font-size: 10px;
+            padding-top: 25px;
+        }
+    
+        .enlacestope  {
+
+            font-size: 10px;
+            padding-right: 2px;
+        
+           }
+        }
