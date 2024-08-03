@@ -1,0 +1,323 @@
+body {
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -22px;
+  font-family: "Archivo", sans-serif;
+  background-color: rgb(31, 31, 31);
+}
+
+/*Contenido*/
+
+.content{
+
+    background-color:rgb(238, 237, 236); 
+}
+
+.titulotope{
+
+    margin-left: 10px;
+}
+
+.tope {
+
+    font-family: 'Minecraft', sans-serif;
+    background-color: rgb(51, 51, 51, 0.9);
+    color: aliceblue;
+   
+    
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+    
+                                                
+
+}
+
+/* Box de ajuste para header */
+
+.relleno{
+
+    background-color:rgb(51, 51, 51);
+
+    height: 99px;
+
+}
+
+/* Enlaces header */
+
+.cajaenlace{
+
+    margin-right: 20px;
+}
+
+.enlacestope {
+
+    padding-right: 10px;
+}
+
+.enlacestope :link {
+
+    text-decoration: none;
+    color: gold;
+    background-color: rgb(67, 201, 0);
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.enlacestope :visited{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+.enlacestope :hover {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+.enlacestope :active {
+
+    text-decoration: none;
+
+
+}
+
+/* Enlaces header (Final) */
+
+/*Imagen con Titulo*/
+
+.Tituimg {
+
+    background-color:rgb(35, 91, 0);
+    background-image: url(src/img/fondo5.png);
+    background-position: 50% 55%;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.Tit{
+
+    font-family: 'Minecraft', sans-serif;
+    font-size: 70px;   
+    text-shadow: 0px 0px 15px 0px;         
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);                    
+}
+
+.subtit{
+    font-family: 'Minecraft Regular';
+    margin-top: -30px;
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);     
+}
+
+/* Titulos antes de descripciones*/
+
+.textostit {
+
+    margin-left: 280px;
+
+    color: rgb(0, 0, 0);
+}
+
+.textostitiz {
+
+    text-align: right;
+    margin-right: 300px;
+
+    color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: 'Minecraft Regular';
+    src: url(src/fonts/laminecraft.otf);
+}
+
+.descrip {
+
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+
+
+    margin-left: 115px;
+
+
+    
+}
+
+.textdesc {
+
+    padding-top: 30px;
+    padding-right: 40px;
+
+    font-size: 120%;
+    text-align: center;
+}
+
+.fotdesc {
+
+    height: 300px;
+}
+
+/* Unirte al server*/
+
+.cajaunion {
+
+    
+
+    background-position: 50% 55%;
+    margin-top: 20px;
+    height: 320px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    background-color:rgb(51, 51, 51);
+
+}
+
+.textocop{
+    
+    font-family: 'Minecraft Regular';
+    text-decoration: none;
+    color: gold;
+    background-color: rgb(67, 201, 0);
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+
+/* Boton copiar IP */
+
+.botoncopia{
+    
+    font-family: 'Minecraft Regular';
+    text-decoration: none;
+    color: gold;
+    background-color: rgb(67, 201, 0);
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-color: aliceblue;
+    border-style: solid;
+  
+}
+
+.botoncopia :link{
+
+    text-decoration: none;
+    color: white;
+}
+
+.botoncopia :visited{
+
+    text-decoration: none;
+    color: white;
+}
+
+.botoncopia :hover{
+
+    text-decoration: none;
+    color: rgb(221, 255, 0);
+}
+
+.botoncopia :active{
+
+    text-decoration: none;
+    color: white;
+}
+
+/* Boton copiar IP */
+
+/* FOOTER*/
+
+
+footer{
+    
+    background-color: black;
+
+
+}
+
+.contfut {
+    margin-top: -21px;
+    background-color: rgb(31, 31, 31);
+
+    
+}
+
+.titfut{   
+
+    padding-top: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-family: 'Minecraft Regular';
+}
+
+.filas{
+
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.fila {
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fila :link {
+
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.fila :visited {
+
+    text-decoration: none;
+    color: rgb(74, 179, 0);
+}
+
+.fila :hover{
+
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.copy {
+
+    background-color: rgb(22, 22, 22) ;
+    color: rgb(148, 148, 148);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 80%;
+    
+    
+}
