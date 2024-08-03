@@ -170,7 +170,7 @@ body {
 .textdesc {
 
     padding-top: 30px;
-    padding-right: 40px;
+    padding-right: 40px;    
 
     font-size: 120%;
     text-align: center;
@@ -202,7 +202,7 @@ body {
     
     font-family: 'Minecraft Regular';
     text-decoration: none;
-    color: gold;
+
     background-color: rgb(67, 201, 0);
     padding: 5px;
     text-decoration: none;
@@ -321,3 +321,292 @@ footer{
     
     
 }
+
+
+
+
+/* REAJUSTE DE CONTENIDO (MEDIA)*/
+
+@media (max-width: 1000px) { /* al llegar a 100px*/
+
+   /* Titulo y caja de enlaces tope*/
+
+   .titulotope{
+    
+    font-size: 30px;
+  
+
+   }
+   .tope {
+
+    
+   }
+
+   .enlacestope  {
+
+    font-size: 30px;
+
+   }
+   
+   
+    /* Ajuste de imagen  y texto inicial*/
+
+    .Tituimg {
+
+        height: 250px;
+        padding-top: 30px;
+
+    }
+
+    .Tit {
+
+        font-size: 50px;
+    }
+
+    .subtit{
+
+        font-size: 20px;
+
+    }
+
+
+    /* Ajustar Titulos y descripciones*/
+
+    .textostit {
+
+        margin-left: 200px;
+        font-size: 20px;
+    }
+
+    .textostitiz {
+
+        margin-left: 200px;
+        font-size: 20px;
+    }
+
+    /* Cajas de descripciones*/
+
+    .descrip {
+
+        margin-left: 90px;
+    }
+
+    .textdesc {
+
+        font-size: 90%;
+    }
+
+    .fotdesc {
+
+        height: 200px;
+    }
+
+    /*Caja de union*/
+
+    .cajaunion {
+
+        height: 250px;
+    }
+
+    .textocop {
+
+        font-size: 30px;
+        padding: 3px;
+    }
+
+    .botoncopia {
+
+        font-size: 30px;
+        padding: 3px; 
+    }
+}
+
+/* REAJUSTE DE CONTENIDO (MEDIA)*/
+
+@media (max-width: 1000px) { /* al llegar a 100px*/
+
+   /* Titulo y caja de enlaces tope*/
+
+   .titulotope{
+    
+    font-size: 20px;
+    padding-top: 15px;
+  
+
+   }
+   .tope {
+
+    
+   }
+
+   .enlacestope  {
+
+    font-size: 20px;
+
+   }
+   
+   
+    /* Ajuste de imagen  y texto inicial*/
+
+    .Tituimg {
+
+        height: 250px;
+        padding-top: 25px;
+
+    }
+
+    .Tit {
+
+        font-size: 50px;
+    }
+
+    .subtit{
+
+        font-size: 20px;
+
+    }
+
+
+    /* Ajustar Titulos y descripciones*/
+
+    .textostit {
+
+        margin-left: 200px;
+        font-size: 20px;
+    }
+
+    .textostitiz {
+
+        margin-left: 200px;
+        font-size: 20px;
+    }
+
+    /* Cajas de descripciones*/
+
+    .descrip {
+
+        margin-left: 90px;
+    }
+
+    .textdesc {
+
+        font-size: 90%;
+    }
+
+    .fotdesc {
+
+        height: 200px;
+    }
+
+    /*Caja de union*/
+
+    .cajaunion {
+
+        height: 250px;
+    }
+
+    .textocop {
+
+        font-size: 30px;
+        padding: 3px;
+    }
+
+    .botoncopia {
+
+        font-size: 30px;
+        padding: 3px; 
+    }
+
+    /* Footer*/
+
+    .titfut {
+
+        font-size: 15px;
+    }
+
+    .fila {
+
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 800px) { /* al llegar a 800px*/
+
+    /* Ajuste de imagen  y texto inicial*/
+
+    .Tituimg {
+
+        height: 150px;
+        padding-top: 30px;
+
+    }
+
+    .Tit {
+
+        font-size: 30px;
+    }
+
+    .subtit{
+
+        font-size: 10px;
+        margin-top: 10px;
+
+    }
+    /* Ajustar Titulos y descripciones*/
+
+    .textostit {
+
+        margin-left: 150px;
+        font-size: 10px;
+    }
+
+    .textostitiz {
+
+        margin-left: 150px;
+        font-size: 10px;
+    }
+
+    /* Cajas de descripciones*/
+
+    .descrip {
+
+        margin-left: 70px;
+    }
+
+    .textdesc {
+
+        font-size: 50%;
+        padding-top: 20px;
+    }
+
+    .fotdesc {
+
+        height: 100px;
+    }
+
+        /*Caja de union*/
+
+        .cajaunion {
+
+            height: 200px;
+        }
+    
+        .textocop {
+    
+            font-size: 20px;
+            padding: 3px;
+        }
+    
+        .botoncopia {
+    
+            font-size: 20px;
+            padding: 3px; 
+        }
+
+        .copy {
+
+            font-size: 10px;
+        }
+    }
+
+
