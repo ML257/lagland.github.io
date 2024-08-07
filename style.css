@@ -5,6 +5,7 @@ body {
   margin-top: -22px;
   font-family: "Archivo", sans-serif;
   background-color: rgb(31, 31, 31);
+  scrollbar-color: green gray ;
 }
 
 /*Contenido*/

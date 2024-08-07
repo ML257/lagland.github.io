@@ -5,24 +5,18 @@ function decirip() {
 
 
 
-function copiarIP() {
-    navigator.clipboard
-      .writeText("192.168.1.9:25565")
-      .then(() => {
-        alert("La IP  del servidor ha sido copiada correctamente");
-      })
-      .catch(() => {
-        console.error("F");
-      });
-}
+function copiar() {
 
-function copia() {
-  let resultado = window.confirm('Deseas copiar la ip?');
+  let resultado = window.confirm("Deseas copiar la IP?")
 
-  if (resultado = true) {
-    copiarIP()
-  } else {
-    window.alert('Usted no quizo copiar la ip')
+  if (resultado === true) {
+
+    navigator.clipboard.writeText("192.168.1.1:25565")
+    window.alert("La ip ha sido copiada con exito!")
+  } else if (resultado === false) {
+    window.alert("No se ha copiado la ip")
+  }  else {
+    window.alert("No ha pasado nada")
   }
 }
 
